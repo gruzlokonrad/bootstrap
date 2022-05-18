@@ -1,0 +1,35 @@
+@import '../../App.scss';
+
+button {
+  background-color: $white;
+  color: black;
+  font-size: 16px;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: 2px solid;
+  background-color: initial;
+  cursor: pointer;
+}
+
+
+.white {
+  border-color: $white;
+  color: $light-text;
+}
+.green {
+  border-color: $green;
+  color: $green;
+}
+.red {
+  border-color: $red;
+  color: $red;
+}
+.blue {
+  border-color: $blue;
+  color: $blue;
+}
+
+.no-frame {
+  border: none;
+}

@@ -1,0 +1,64 @@
+@import '../../App.scss';
+
+.contact-container {
+  background-color: $blue;
+  margin: 0;
+  padding: 72px 0;
+
+  .page-title {
+    color: $light-text;
+  }
+
+  .contact {
+    display: flex;
+    flex-basis: 1;
+    justify-content: space-between;
+
+    form {
+      flex: 2 0 0;
+
+      input,
+      textarea {
+        outline: none;
+        border: none;
+        display: block;
+        padding: 10px;
+        width: 100%;
+        background-color: inherit;
+        color: $light-text;
+        font-size: 16px;
+        border-bottom: 4px solid $white;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        height: 150px;
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: $light-text;
+      }
+    }
+
+    .contact-details {
+      color: $light-text;
+      flex: 1 0 0;
+      margin-left: 96px;
+
+
+      >div {
+        margin-bottom: 20px;
+      }
+
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+
+    button {
+      padding: 15px 50px;
+    }
+  }
+}

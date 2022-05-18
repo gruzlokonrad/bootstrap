@@ -1,0 +1,43 @@
+// STYLE
+$blue: #0097e6;
+$green: #33d9b2;
+$red: #ff5252;
+$white: #ffffff;
+$light-text: #ffffff;
+$dark-text: #2c2c54;
+
+@font-face {
+  font-family: Inconsolata;
+  src: url(./fonts/Inconsolata/Inconsolata.ttf);
+}
+
+@font-face {
+  font-family: Signika;
+  // src: url(./fonts/Signika/Signika-VariableFont_wght.ttf);
+  src: url(./fonts/Signika/Signika.ttf);
+}
+
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+section {
+  margin-bottom: 96px;
+}
+
+.page-title {
+  font-size: 48px;
+  margin: 0 0 72px 0;
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+@import '../../App.scss';
+
+.work {
+  color: $dark-text;
+
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  .category-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  .category {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 50%;
+    min-height: 300px;
+    position: relative;
+
+    .category-description{
+      padding: 30px 40px;
+    }
+    
+    .image {
+      margin: 15px;
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 250px;
+      margin: 0;
+      
+      img {
+        max-width: 250px;
+        object-fit: cover;
+      }
+    }
+
+    .image::after{
+      width: 250px;
+      height: 100%;
+      background-color: aqua;
+      opacity: 0.3;
+      content: "";
+      top: 15px;
+      left: 15px;
+      position: absolute;
+    }
+  }
+
+  button {
+    text-align: left;
+    padding: 0;
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../App.scss';
+
+.splash {
+  min-height: 500px;
+  background: $blue;
+  display: flex;
+  align-items: center;
+
+  header {
+    .page-title,
+    .page-subtitle,
+    span {
+      color: $light-text;
+    }
+
+    .page-title {
+      display: inline-block;
+      font-size: 72px;
+      line-height: 1.2;
+      word-spacing: -24px;
+      text-align: left;
+      font-weight: 700;
+    }
+
+    .page-subtitle {
+      text-align: left;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+
+
+  span {
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+  }
+}
