@@ -23,12 +23,13 @@
   .category {
     display: flex;
     justify-content: center;
-    flex: 0 0 50%;
+    flex: 0 0 1;
     min-height: 300px;
     position: relative;
 
     .category-description{
       padding: 30px 40px;
+      max-width: 300px;
     }
     
     .image {

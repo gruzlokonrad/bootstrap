@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from '../../container/Container';
 import Button from '../Button/Button';
 import './Work.scss';

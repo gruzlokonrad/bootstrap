@@ -12,10 +12,16 @@
   .contact {
     display: flex;
     flex-basis: 1;
+    flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 72px;
+    column-gap: 96px;
 
     form {
-      flex: 2 0 0;
+      // flex: 2 0 0;
+      flex: 2 0 300px;
+      // border: 1px solid black;
+      // order: 2;
 
       input,
       textarea {
@@ -43,8 +49,10 @@
 
     .contact-details {
       color: $light-text;
-      flex: 1 0 0;
-      margin-left: 96px;
+      flex: 1 0 100px;
+      min-width: 171px;
+      // margin-left: 96px;
+      // order: 1;
 
 
       >div {
