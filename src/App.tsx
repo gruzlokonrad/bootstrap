@@ -1,21 +1,18 @@
-import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Nav from './components/Nav/Nav';
-import Services from './components/Services/Services';
-import Splash from './components/Splash/Splash';
-import Work from './components/Work/Work';
+
+import Menu from './Components/Menu/Menu';
+import Products from './Components/Products/Products';
+import Slider from './Components/Slider/Slider';
+import CardBody from './Components/CardBody/CardBody';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Splash />
-      <Services />
-      <Work />
-      <Contact />
-      <Footer />
+      <Menu />
+      <Slider />
+      <Products />
+      <CardBody />
     </div>
   );
 }

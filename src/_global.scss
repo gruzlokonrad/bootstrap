@@ -1,0 +1,14 @@
+$red: blue;
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin border-radiu($radius) {
+  border-radius: $radius;
+}
+
+@mixin border($color) {
+  border: 3px solid $color;
+}
