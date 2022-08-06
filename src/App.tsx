@@ -5,6 +5,8 @@ import Menu from './Components/Menu/Menu';
 import Products from './Components/Products/Products';
 import Slider from './Components/Slider/Slider';
 import CardBody from './Components/CardBody/CardBody';
+import BenefitsCard from './Components/BenefitsCard/BenefitsCard';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Slider />
       <Products />
       <CardBody />
+      <BenefitsCard />
+      <Footer />
     </div>
   );
 }
